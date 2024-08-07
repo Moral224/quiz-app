@@ -4,7 +4,8 @@ body {
     /* display: flex; */
     /* justify-content: center;
     align-items: center; */
-    /* height: 90vh; */
+    height: 200vh;
+    width: 100%;
     background-color: #009688;
     
 }
@@ -185,7 +186,7 @@ body {
         /* display: flex; */
         /* justify-content: center;
         align-items: center; */
-        /* height: 100vh; */
+        height: 200vh;
         background-color: #009688;
         /* overflow: hidden; */
     }
