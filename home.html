@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="question-container">
+            <div id="display"></div>
+            <div id="question">Question text</div>
+            <div id="options">
+                <label><input type="radio" name="option" value="0"> Option 1</label>
+                <label><input type="radio" name="option" value="1"> Option 2</label>
+                <label><input type="radio" name="option" value="2"> Option 3</label>
+                <label><input type="radio" name="option" value="3"> Option 4</label>
+            </div>
+            <div class="buttons">
+                <button id="next-btn">Next</button>
+                <button id="prev-btn">Previous</button>
+                <button id="submit-btn" style="display: none;">Submit</button>
+            </div>
+        </div>
+        <div id="score-container" style="display: none;">
+            <h2>Score</h2>
+            <table>
+                <tr>
+                    <th>Question</th>
+                    <th>Your Answer</th>
+                    <th>Correct Answer</th>
+                </tr>
+                <!-- Score rows will be appended here -->
+            </table>
+            
+            <a href="home.html"><button id="try"> Try Again</button></a>
+            <a href="index.html"><button id="go"> Go to Home</button></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

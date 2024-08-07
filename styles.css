@@ -1,0 +1,315 @@
+@import 'animate.css';
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    height: 90vh;
+    background-color: #009688;
+    
+}
+
+#bo{
+    height: 20vh;
+}
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#options label {
+    display: block;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score-container {
+    margin-top: 20px;
+}
+
+#score-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#score-container th, #score-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#score-container th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+#prev-btn{
+    padding: 15px 45px;
+    background-color: #009688;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+#prev-btn:hover{
+    border-bottom: 3px solid gray;
+    background-color: rgb(144, 238, 144);
+    color: black;
+    cursor: pointer;
+}
+#next-btn{
+    padding: 15px 45px;
+    background-color: #009688;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+#next-btn:hover{
+    border-bottom: 3px solid gray;
+    background-color: rgb(144, 238, 144);
+    color: black;
+    cursor: pointer;
+}
+#king{
+    color: white;
+    background-color: black;
+    font-size: 8em;
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXU5OXowYWk5cGZzbTE4aXZpbmZ6MHh2eXpwM2g3Zms5am5objc0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHB1EKuujDjYFWw/giphy.webp);
+    /* background-repeat: no-repeat; */
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    position: sticky;
+    top: -20px;
+}
+#con{
+    color: white;
+    font-size: 1rem;
+    width: 50%;
+    margin-left: 5%;
+
+}
+#hello{
+    height: 50%;
+    
+}
+#speech, p{
+    color: white;
+    padding: 1px;
+}
+.container{
+ margin-top: 30px;
+ margin-left: 70%;
+ padding-bottom: 5%;
+}
+#start{
+     padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #55e6b5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#start:hover{
+    background-color: rgb(144, 238, 144);
+    transform: scale(1.1);
+}
+#submit-btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #55e6b5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#submit-btn:hover{
+    background-color: rgb(144, 238, 144);
+    transform: scale(1.1);
+}
+
+
+#try{
+    margin-top: 2%;
+    padding: 15px 45px;
+    background-color: #009688;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+#try:hover{
+    border-bottom: 3px solid gray;
+    background-color: rgb(144, 238, 144);
+    color: black;
+    cursor: pointer;
+}
+#go{
+    margin-top: 2%;
+    padding: 15px 45px;
+    background-color: #009688;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+#go:hover{
+    border-bottom: 3px solid gray;
+    background-color: rgb(144, 238, 144);
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width:475px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+        height: 100vh;
+        background-color: #009688;
+        overflow: hidden;
+    }
+
+    #king{
+        color: white;
+        background-color: black;
+        font-size: 2em;
+        background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXU5OXowYWk5cGZzbTE4aXZpbmZ6MHh2eXpwM2g3Zms5am5objc0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHB1EKuujDjYFWw/giphy.webp);
+        /* background-repeat: no-repeat; */
+        color: transparent;
+        background-clip: text;
+        text-align: center;
+        position: sticky;
+        top: 0px;
+    }
+    #con{
+        color: white;
+        font-size: 1rem;
+        width: 50%;
+        margin-left: 6%;
+    
+    }
+    #well{
+        font-size: 20px;
+    }
+    #hello{
+        /* height: 50%; */
+        /* width: 70%; */
+        font-size: 18px;
+        
+    }
+    #be{
+        font-size: 15px;
+    }
+    #speech, p{
+        color: white;
+        padding: 1px;
+        font-size: 15px;
+    }
+    .container{
+     margin-top: 30px;
+     margin-left: 70%;
+     padding-bottom: 5%;
+    }
+    #start{
+         padding: 15px 30px;
+        font-size: 18px;
+        color: white;
+        background-color: #55e6b5;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    #start:hover{
+        background-color: rgb(144, 238, 144);
+        transform: scale(1.1);
+    }
+    #submit-btn{
+        padding: 15px 30px;
+        font-size: 18px;
+        color: white;
+        background-color: #55e6b5;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    #submit-btn:hover{
+        background-color: rgb(144, 238, 144);
+        transform: scale(1.1);
+    }
+    
+    
+    #try{
+        margin-top: 2%;
+        padding: 15px 45px;
+        background-color: #009688;
+        color: #ffffff;
+        border-radius: 5px;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+        
+    }
+    #try:hover{
+        border-bottom: 3px solid gray;
+        background-color: rgb(144, 238, 144);
+        color: black;
+        cursor: pointer;
+    }
+    #go{
+        margin-top: 2%;
+        padding: 15px 45px;
+        background-color: #009688;
+        color: #ffffff;
+        border-radius: 5px;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #go:hover{
+        border-bottom: 3px solid gray;
+        background-color: rgb(144, 238, 144);
+        color: black;
+        cursor: pointer;
+    }
+
+    .quiz-container {
+        background-color: rgb(250, 244, 244);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    
+}
+
