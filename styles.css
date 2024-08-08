@@ -194,7 +194,7 @@ body {
         align-items: center; */
         height: 40vh;
         background-color: #009688;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
 
     #king{
