@@ -34,6 +34,7 @@ body {
 
 #score-container {
     margin-top: 20px;
+    display: flex;
 }
 
 #score-container table {
@@ -97,12 +98,13 @@ body {
 #con{
     color: white;
     font-size: 1rem;
-    width: 50%;
+    width: 100%;
     margin-left: 5%;
 
 }
 #hello{
-    height: 50%;
+    /* height: 50%; */
+    width: 100%;
     
 }
 #speech, p{
@@ -125,7 +127,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     margin-left: 5%;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
 } 
 #start:hover{
     background-color: rgb(144, 238, 144);
@@ -198,7 +200,7 @@ body {
     #king{
         color: white;
         background-color: black;
-        font-size: 2em;
+        font-size: 50px;
         background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXU5OXowYWk5cGZzbTE4aXZpbmZ6MHh2eXpwM2g3Zms5am5objc0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHB1EKuujDjYFWw/giphy.webp);
         /* background-repeat: no-repeat; */
         color: transparent;
@@ -210,7 +212,7 @@ body {
     #con{
         color: white;
         font-size: 1rem;
-        width: 50%;
+        width: 100%;
         margin-left: 6%;
     
     }
@@ -237,7 +239,7 @@ body {
      padding-bottom: 5%;
     }
     #start{
-         /* padding: 15px 30px; */
+         padding: 15px 30px;
         font-size: 18px;
         color: white;
         background-color: #55e6b5;
@@ -260,10 +262,10 @@ body {
         cursor: pointer;
         transition: background-color 0.3s ease, transform 0.3s ease;
     }
-    #submit-btn:hover{
+    /* #submit-btn:hover{
         background-color: rgb(144, 238, 144);
         transform: scale(1.1);
-    }
+    } */
     
     
     #try{
@@ -278,12 +280,12 @@ body {
         cursor: pointer;
         
     }
-    #try:hover{
+    /* #try:hover{
         border-bottom: 3px solid gray;
         background-color: rgb(144, 238, 144);
         color: black;
         cursor: pointer;
-    }
+    } */
     #go{
         margin-top: 2%;
         padding: 15px 45px;
@@ -295,12 +297,12 @@ body {
         font-size: 16px;
         cursor: pointer;
     }
-    #go:hover{
+    /* #go:hover{
         border-bottom: 3px solid gray;
         background-color: rgb(144, 238, 144);
         color: black;
         cursor: pointer;
-    }
+    } */
 
     .quiz-container {
         background-color: rgb(250, 244, 244);
