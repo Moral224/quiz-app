@@ -161,12 +161,12 @@ body {
     cursor: pointer;
     
 }
-#try:hover{
+/* #try:hover{
     border-bottom: 3px solid gray;
     background-color: rgb(144, 238, 144);
     color: black;
     cursor: pointer;
-}
+} */
 #go{
     margin-top: 2%;
     padding: 15px 45px;
@@ -178,12 +178,12 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
-#go:hover{
+/* #go:hover{
     border-bottom: 3px solid gray;
     background-color: rgb(144, 238, 144);
     color: black;
     cursor: pointer;
-}
+} */
 
 @media screen and (max-width:475px) {
 
@@ -192,7 +192,7 @@ body {
         /* display: flex; */
         /* justify-content: center;
         align-items: center; */
-        height: 40vh;
+        height: 60vh;
         background-color: #009688;
         overflow: hidden;
     }
